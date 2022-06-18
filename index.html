@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Form on JQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Ajax Form on JQuery</h1>
+    </header>
+    <main class="container">
+        <form id="form" class="form">
+            <input type="hidden" name="form_title" value="Form title" readonly>
+            <div class="form-group">
+                <label for="input_name" class="form-label-name">Name<span class="form-reqrequired">*</span>: </label>
+                <input type="text" name="form_name" id="input_name" class="form-input-name"
+                    placeholder="Enter your Name..." required>
+            </div>
+            <div class="form-group">
+                <label for="input_email" class="form-label-email">E-mail<span class="form-reqrequired">*</span>:
+                </label>
+                <input type="email" name="form_email" id="input_email" class="form-input-email"
+                    placeholder="Enter your E-mail..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="textarea_message" class="form-textarea-message">Message: </label>
+                <textarea name="form_message" id="textarea_message" class="form-textarea-message" cols="25" rows="5"
+                    placeholder="Enter your Message..."></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-privacy">
+                    <input type="checkbox" name="form_checkbox" id="input_checkbox" class="form-input-checkbox"
+                        required>
+                    <label for="input_checkbox">Privacy policy</label>
+                </div>
+                <div id="form_message" class="form-message"></div>
+                <div class="form-button-group">
+                    <button class="form-button-submit" type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <a class="footer-link" href="https://findsaid.github.io/" target="_blank" rel="noopener">findsaid</a>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
