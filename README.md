@@ -1,2 +1,2 @@
 # Ajax form on JQuery
-(assets/preview.png)
+<img src="assets/preview.png" alt="Employee data" title="Employee Data title">
